@@ -7,7 +7,7 @@ steps:
       [
         'build',
         '-t',
-        'us-central1-docker.pkg.dev/nicoservertest/mercadolibre-bot-preventa/bot-preventa:$COMMIT_SHA',
+        'us-central1-docker.pkg.dev/nicoservertest/wpp-notifications-manager/wpp-notific-mnger:$COMMIT_SHA',
         '.'
       ]
 
@@ -15,8 +15,8 @@ steps:
     args:
       [
         'push',
-        'us-central1-docker.pkg.dev/nicoservertest/mercadolibre-bot-preventa/bot-preventa:$COMMIT_SHA'
+        'us-central1-docker.pkg.dev/nicoservertest/wpp-notifications-manager/wpp-notific-mnger:$COMMIT_SHA'
       ]
 
 images:
-  - 'us-central1-docker.pkg.dev/nicoservertest/mercadolibre-bot-preventa/bot-preventa:$COMMIT_SHA'
+  - 'us-central1-docker.pkg.dev/nicoservertest/wpp-notifications-manager/wpp-notific-mnger:$COMMIT_SHA'
