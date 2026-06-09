@@ -1,0 +1,5 @@
+gunicorn.conf.py
+/venv-wppnotify
+.env
+__pycache__/*
+app/__pycache__/*
