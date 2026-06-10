@@ -25,7 +25,7 @@ def send_rquest(message):
     for i, k in enumerate(var):
         if 'address' in k:
             if str(var.get(k).split('---')[1]) == str(user_id):
-                url = var.get(k).split('--')[0]
+                url = var.get(k).split('---')[0]
                 logger.info(f"WPP Message belong to user: {user_id}")
                 break
             else:
